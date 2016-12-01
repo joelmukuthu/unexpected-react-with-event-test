@@ -1,0 +1,27 @@
+{
+  "name": "unexpected-react-with-event-test",
+  "version": "1.0.0",
+  "description": "An attempt at reproducing https://github.com/bruderstein/unexpected-react/issues/34",
+  "main": "index.js",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-register": "^6.18.0",
+    "mocha": "^3.2.0",
+    "react": "^15.4.1",
+    "react-addons-test-utils": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "sinon": "^1.17.6",
+    "unexpected": "^10.20.0",
+    "unexpected-react": "3.1.2",
+    "unexpected-sinon": "^10.5.0"
+  },
+  "babel": {
+    "presets": ["react", "es2015"]
+  },
+  "scripts": {
+    "test": "mocha -r babel-register index.spec.js"
+  },
+  "author": "Joel Mukuthu <joelmukuthu@gmail.com>",
+  "license": "MIT"
+}

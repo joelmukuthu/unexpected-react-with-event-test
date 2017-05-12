@@ -11,7 +11,7 @@
     "react": "^15.4.1",
     "react-addons-test-utils": "^15.4.1",
     "react-dom": "^15.4.1",
-    "sinon": "^1.17.6",
+    "sinon": "^2.2.0",
     "unexpected": "^10.20.0",
     "unexpected-react": "^3.3.2",
     "unexpected-sinon": "^10.5.0"
@@ -35,7 +35,7 @@
     "react": "^15.4.1",
     "react-addons-test-utils": "^15.4.1",
     "react-dom": "^15.4.1",
-    "sinon": "^1.17.6",
+    "sinon": "^2.2.0",
     "unexpected": "^10.20.0",
     "unexpected-sinon": "^10.5.0"
   },
